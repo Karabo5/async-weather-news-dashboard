@@ -62,3 +62,10 @@ Promise.race([getData(WEATHER_URL), getData(NEWS_URL)])
         
     }) 
 
+async function processData () : Promise<void>{
+    try {
+        
+    } catch (error) {
+        
+    }
+}
